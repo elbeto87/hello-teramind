@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y curl
 
 RUN curl -sSL https://install.python-poetry.org | python3 -
 
-ENV PATH="${PATH}:/root/.local/bin:/app/.venv/bin"
+ENV PATH="${PATH}:/root/.local/bin"
 
 COPY pyproject.toml poetry.lock* /app/
 
