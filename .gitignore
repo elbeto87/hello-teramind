@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Test and coverage reports
+.coverage
+*.cover
+*.hypothesis/
+.noseids
+nosetests.xml
+test_*.xml
+
+# Python virtual environments
+# (eliminar esta sección si no usas un entorno virtual)
+venv/
+ENV/
+env/
+
+# Pycharm
+.idea/
